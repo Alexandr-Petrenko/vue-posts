@@ -5,7 +5,8 @@ import PostsPreviews from '@/views/PostsPreviews.vue';
 Vue.use(Router);
 
 export default new Router({
-  mode: 'history',
+  mode: 'hash',
+  base: '/vue-posts/',
   routes: [
     {
       path: '/',
